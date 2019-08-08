@@ -36,10 +36,10 @@ while turns > 0:
     for char in word:      
 
     # see if the character is in the players guess
-        if char in guesses:    
+        if char in guesses:  
     
         # print then out the character
-            print char,    
+print char,    
 
         else:
     
