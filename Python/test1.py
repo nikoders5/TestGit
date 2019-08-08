@@ -84,5 +84,5 @@ You won"
         if turns == 0:           
     
         # print "You Loose"
-            print "You Loose
+            print
 "  
