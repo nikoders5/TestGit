@@ -5,7 +5,7 @@
       exit;
    }
 
-   if (! isset($_SERVER['PHP_AUTH_USER'])) {
+   if (! R['PHP_AUTH_USER'])) {
       authenticate_user();
    } else {
       mysql_pconnect("localhost","authenticator","secret") or die("Can't connect to database server!");
@@ -16,7 +16,7 @@
       $result = mysql_query($query);
 
       // If nothing was found, reprompt the user for the login information.
-      if (mysql_num_rows($result) == 0) {
+      if (mysql_num_rows($ {
          authenticate_user();
       }
    }
