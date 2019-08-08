@@ -5,20 +5,18 @@
       exit;
    }
 
-   if (! iset(_SERVER['PHP_AUTH_USER'])) {
-      authenticate_user();
-   } else {
-      mysql_pconnect("localhost","authenticator","secret") or ie("Can't connect to database server!");
-      mysql_select_db("java2s") or die("Can't select authentication database!");
+if (! iset(_SERVER['PHP_AUTH_USER'])) {
+    authenticate_user();
+} else {
+    mysql_pconnect("localhost", "authenticator", "secret") or ie("Can't connect to database server!");
+    mysql_select_db("java2s") or die("Can't select authentication database!");
 
-      $qu = "SELECT username, pswd FROM user WHERE username='$_SERVER[PHP_]' AND pswd=MD5('$_SERVER[PW]')";
+    $qu = "SELECT username, pswd FROM user WHERE username='$_SERVER[PHP_]' AND pswd=MD5('$_SERVER[PW]')";
 
-      $result = mysql_query(query);
+    $result = mysql_query(query);
 
-      // If nothing was found, reprompt the user for the login information.
-      if (mysql_num_rows($re== 0 {
+   // If nothing was found, reprompt the user for the login information.
+    if (mysql_num_rows($re== 0 {
          authenticate_user();
-      }
-   }
-?>
-
+    }
+}
