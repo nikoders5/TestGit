@@ -11,6 +11,7 @@ linters:
   csslint: {  }
   
   checkstyle:
+    config: config/checkstyle_checks.xml
   
 files:
   ignore:
