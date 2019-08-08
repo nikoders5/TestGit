@@ -4,12 +4,9 @@ public class FileDemo {
   
         try {  
             File file = new File("javaFile123.txt");  
-            if (file.createNewFile()) {  
+            if (file.createNewFil) {  
                 System.out.println("New File is created!");  
-            } else {  
-                System.out.println("File already exists.");  
-            }  
-        } catch (IOException e) {  
+            } els
             e.printStackTrace();  
         }  
   
