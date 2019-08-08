@@ -1,11 +1,11 @@
 linters:
   flake8:
-    fixer: true
+  
   rubocop:
-    fixer: true
+  
   phpcs:
     standard: PSR2
-    fixer: true
+
   shellcheck:
     shell: bash
   csslint: {  }
@@ -14,5 +14,3 @@ files:
     - 'vendor/*'
     - 'bower_components/*'
     - 'node_modules/*'
-fixers:
-  enable: true
