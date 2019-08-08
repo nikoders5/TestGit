@@ -9,6 +9,10 @@ linters:
   shellcheck:
     shell: bash
   csslint: {  }
+  
+  checkstyle:
+        config: ./checkstyle_checks.xml
+  
 files:
   ignore:
     - 'vendor/*'
