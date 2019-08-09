@@ -1,0 +1,2 @@
+whilerue:
+    print("hello world")
