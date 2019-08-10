@@ -50,6 +50,9 @@ linters:
     ktlint:
         android: true
      
+    # JSON
+    jsonlint:
+    
     # Ruby
     rubocop:
         display_cop_names: true
