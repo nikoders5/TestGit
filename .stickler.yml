@@ -20,7 +20,7 @@ linters:
     #csslint:
     
     stylelint:
-        config: './stylelintrc.json'
+        config: './.stylelintrc.json'
     
     # Credo - Test to be done.
     credo:
