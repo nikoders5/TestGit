@@ -11,10 +11,10 @@ linters:
       ignore-patterns: 'generated/.*'
     
     # JavaScript
-    eslint:
-        #config: './eslint.config'
-    
     jshint:
+    
+    eslint:
+        # config: './eslint.config'
         
     # CSS
     csslint:
