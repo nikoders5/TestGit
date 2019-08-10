@@ -17,10 +17,10 @@ linters:
         # config: './js_jsx_syntax.config'
         
     # CSS
-    csslint:
+    #csslint:
     
     stylelint:
-        # config: 'stylelintrc.json'
+        config: 'stylelint_config.json'
     
     # Credo - Test to be done.
     credo:
@@ -28,7 +28,7 @@ linters:
     
     # Java
     checkstyle:
-        # config: ./java_syntax_config.xml
+        config: ./java_syntax_config.xml
         
     # PHP
     phpcs:
