@@ -6,7 +6,7 @@ linters:
     cpplint:
     
     #HTML
-    html-linter:
+    #html-linter:
     
     pep8:
         ignore: 'W28'
