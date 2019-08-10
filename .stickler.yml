@@ -2,6 +2,12 @@ linters:
     # Python
     flake8:
     
+    #CPP
+    cpplint:
+    
+    #HTML
+    html-linter:
+    
     pep8:
         ignore: 'W28'
         max-line-length: 120
