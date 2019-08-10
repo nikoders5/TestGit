@@ -64,6 +64,9 @@ linters:
     # Swift
     swiftlint:
     
+    # Shell
+    shellcheck:
+    
     #C/C++ to be implemented with config file
     #cpplint:
     
