@@ -14,7 +14,7 @@ linters:
     jshint:
     
     eslint:
-        # config: './eslint.config'
+        config: './eslint.config'
         
     # CSS
     csslint:
