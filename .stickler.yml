@@ -18,6 +18,11 @@ linters:
         
     # CSS
     csslint:
+    stylelint:
+    
+    # Credo
+    credo:
+        ignore-checks: duplicated
     
     # Java
     checkstyle:
