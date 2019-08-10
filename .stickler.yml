@@ -66,6 +66,8 @@ linters:
     
     # Shell
     shellcheck:
+        shell: bash
+        exclude: 'SC2154,SC2069'
     
     #C/C++ to be implemented with config file
     #cpplint:
