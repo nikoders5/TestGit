@@ -51,6 +51,9 @@ linters:
     # YAML
     yamllint:
         #config: ./yamllint.conf
+        
+    # Swift
+    swiftlint:
     
     
 
