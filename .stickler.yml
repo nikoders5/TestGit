@@ -14,14 +14,15 @@ linters:
     jshint:
     
     eslint:
-        config: './eslint.config'
+        # config: './eslint.config'
         
     # CSS
     csslint:
     
     stylelint:
+        # config: 'stylelintrc.json'
     
-    # Credo
+    # Credo - Test to be done.
     credo:
         ignore-checks: duplicated
     
