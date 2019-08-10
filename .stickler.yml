@@ -2,12 +2,6 @@ linters:
     # Python
     flake8:
     
-    #CPP
-    cpplint:
-    
-    #HTML
-    #html-linter:
-    
     pep8:
         ignore: 'W28'
         max-line-length: 120
@@ -70,8 +64,12 @@ linters:
     # Swift
     swiftlint:
     
+    #C/C++ to be implemented with config file
+    #cpplint:
     
-
+    #HTML to be implemented with config file
+    #html-linter:
+    
 files:
     ignore:
         - 'src/generated/*'
