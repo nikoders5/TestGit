@@ -21,7 +21,7 @@ linters:
     
     # Java
     checkstyle:
-        config: ./checkstyle.xml
+        config: ./checkstyle1.xml
         
     # PHP
     phpcs:
