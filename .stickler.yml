@@ -17,10 +17,10 @@ linters:
         # config: './js_jsx_syntax.config'
         
     # CSS
-    #csslint:
+    csslint:
     
     stylelint:
-        config: './.stylelintrc.json'
+        config: './stylelint_config.json'
     
     # Credo - Test to be done.
     credo:
