@@ -1,2 +1,2 @@
 # TestGit
-GitPredictions for Testing purpose.
+For Testing Purpose: GitPredictions
