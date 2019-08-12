@@ -9,6 +9,15 @@ linters:
     py3k:
       ignore: 'W1618,W1655'
       ignore-patterns: 'generated/.*'
+      
+    # PHP CSS, JS
+    phpcs:
+      standard: 'PSR2'
+      exclude: 'Generic.Files.LineLength,PSR2.Files.EndFileNewline'
+      ignore: 'tests/fixtures/generated/*'
+      extensions: 'php,ctp'
+      tab_width: 4
+      fixer: true
     
     # JavaScript
     standardjs:
