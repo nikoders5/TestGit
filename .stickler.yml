@@ -13,8 +13,8 @@ linters:
     # JavaScript
     jshint:
     
-    eslint:
-        config: './js_jsx_syntax.config'
+    #eslint:
+        #config: './js_jsx_syntax.config'
         
     # CSS
     csslint:
