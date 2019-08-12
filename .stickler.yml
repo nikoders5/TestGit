@@ -14,7 +14,7 @@ linters:
     jshint:
     
     eslint:
-        # config: './js_jsx_syntax.config'
+        config: './js_jsx_syntax.config'
         
     # CSS
     csslint:
