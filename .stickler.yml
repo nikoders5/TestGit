@@ -11,6 +11,8 @@ linters:
       ignore-patterns: 'generated/.*'
     
     # JavaScript
+    standardjs:
+    
     jshint:
     
     eslint:
