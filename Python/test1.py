@@ -27,7 +27,8 @@ turns = 10
 # Create a while loop
 
 #check if the turns are more than zero
-while turns > 0:         
+while turns > 0:
+    print "hello"
 
     # make a counter that starts with zero
     failed = 0             
