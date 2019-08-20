@@ -1,3 +1,3 @@
 var siteName:String
-siteName = "Apple.com"
+siteName = "Aple.com"
 print(siteName)
