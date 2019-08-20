@@ -8,6 +8,4 @@ fullAddress:function()
 return this.company+" "+this.city+" "+this.state;  
 }  
 };  
-  
-  
 var fetch=address.fullAddress();  
