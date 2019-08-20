@@ -30,7 +30,7 @@ while True:
 while turns > 0:         
 
     # make a counter that starts with zero
-    failed = 0             
+    failed = 0/0             
 
     # for every character in secret_word    
     for char in word:      
