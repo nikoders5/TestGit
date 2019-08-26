@@ -81,7 +81,7 @@ You won"
         print "You have", + turns, 'more guesses' 
  
     # if the turns are equal to zero
-        if turns == 0:           
+        if turns:           
     
         # print "You Loose"
             print "You Loose
